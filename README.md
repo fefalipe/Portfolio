@@ -17,8 +17,8 @@ Este projeto está sendo construído passo a passo, seguindo a trilha de estudos
 - [x] **Artigo:** HTML, CSS e Javascript, quais as diferenças?
 - [x] **Artigo:** CSS: o que é, como usar no HTML e um Guia para iniciar
 - [x] **Curso:** HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags
-- [ ] **Curso:** HTML e CSS: Classes, posicionamento e Flexbox
-- [ ] **Podcast:** CSS: Cansei de Ser Simples – Hipsters #09
+- [x] **Curso:** HTML e CSS: Classes, posicionamento e Flexbox
+- [x] **Podcast:** CSS: Cansei de Ser Simples – Hipsters #09
 - [ ] **Curso:** HTML e CSS: cabeçalho, footer e variáveis CSS
 - [ ] **Curso:** HTML e CSS: trabalhando com responsividade e publicação de projetos
 
