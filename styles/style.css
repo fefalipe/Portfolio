@@ -15,6 +15,7 @@
     box-sizing:border-box;
     background-color:var(--cor-primaria);
     color:var(--cor-secundaria);
+    width: auto;
 }
 
 .cabecalho{
@@ -30,7 +31,7 @@
 
 .cabecalho__menu__link{
     font-family: "Spectral", serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 300;
     color: var(--cor-secundaria);
     text-decoration:none;
@@ -42,18 +43,22 @@
     align-items: center;
     justify-content: space-between;
     justify-content: space-evenly;
-    gap: 10px;
+    gap: 82px;
+}
+
+.apresentacao__imagem{
+    width: 50%;
 }
 
 .apresentacao__conteudo{
-    width: 815px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
 .apresentacao__conteudo__titulo{
-    font-size: 46px;
+    font-size: 2.88rem;
     text-align: justify;
     font-family:"Spectral", serif;
     font-weight: 100;
@@ -70,7 +75,7 @@
 }
 
 .apresentacao__conteudo__texto{
-    font-size: 20px;
+    font-size: 1.5rem;
     text-align: justify;
     gap: 10px;
     font-family: "Spectral", serif;
@@ -81,7 +86,7 @@
 .apresentacao__links__subtitulo{
     font-family: "Spectral", serif;
     font-weight: 200;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .apresentacao__links{
@@ -92,7 +97,7 @@
     align-items:first baseline;
 }
 
-.apresentacao__links__link{
+.apresentacao__links__navegacao{
     display: flex;
     justify-content: center;
     gap: 8px;
@@ -101,14 +106,14 @@
     border-radius: 10px;
     border: 2px, dotted var(--cor-secundaria);
     text-align: center;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: "Spectral", serif;
     font-weight: 400;
 }
 
-.apresentacao__links__link:hover{
+.apresentacao__links__navegacao:hover{
     background-color: #2e2c2928;
 }
 
@@ -118,5 +123,21 @@
     background-color: var(--cor-secundaria);
     text-align: center;
     font-family: "Spectral", serif;
-    font-size: 14px;
+    font-size: 1.1rem;
+}
+
+@media(max-width: 1200px){
+    .cabecalho{
+        padding: 8%;
+    }
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apresentacao__conteudo{
+        width: auto;
+    }
 }
